@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <button class="btn"><a href="index.html">HOME</a></button>
+    <title>Ask For Help </title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            background-image: url( https://neurosys.com/wp-content/webp-express/webp-images/uploads/2024/02/revolutionizing-customer-service-with-ai.jpg.webp
+        );
+        height:210px; }
+
+        header {
+            color: rgb(5, 0, 0);
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            max-width: 80px;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d40;
+            padding: 0.75rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #b2dfdb;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: white;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        p{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: large;
+        }
+        form {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        form div {
+            margin-bottom: 1.5rem;
+        }
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #004d40;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        form textarea {
+            resize: vertical;
+            height: 120px;
+        }
+        form button {
+            background-color: #06ac99;
+            color: rgb(6, 1, 1);
+            border: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        form button:hover {
+            background-color: #058b75;
+        }
+        footer {
+            background-color: #004d40;
+            color: #b2dfdb;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ask for Help on AI</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">⬅Home</a>
+    </nav>
+
+    <main>
+        <h2>We Are Here to Help!</h2>
+        <p>If you have any questions or need assistance on AI-related topics, please fill out the form below, and we will get back to you as soon as possible.</p>
+
+        <form action="submit_help_request.html" method="post">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div>
+                <label for="topic">Topic of Assistance</label>
+                <input type="text" id="topic" name="topic" placeholder="E.g., Machine Learning, NLP, etc." required>
+            </div>
+
+            <div>
+                <label for="message">Your Question or Request</label>
+                <textarea id="message" name="message" placeholder="Describe your issue or question in detail..." required></textarea>
+            </div>
+
+            <div>
+                <button type="submit"><a href="https://miro.medium.com/v2/resize:fit:1400/1*Bla0XlZFPLLqZuwyg3dJLw.png">Submit Query </a></li></button>
+            </div>
+        </form>
+    </main>
+
+  
+</body>
+</html>

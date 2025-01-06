@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-container">
+        <div class="faq">
+            <div class="question">
+                1. What type of AI model is being used on this website?
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                Answer: "Our website uses a deep learning model based on transformers, similar to OpenAI's GPT-3. This model is trained on large amounts of text data to understand and generate human-like responses."
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                2. How does your AI process and learn from data?
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                Answer: "Our AI uses a process called supervised learning, where it's trained on vast datasets with labeled examples. The model learns by finding patterns in this data and gradually improving its ability to predict or generate relevant outputs."
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                3. What are the main features offered by this AI system?
+                <span class="arrow">&#9654;</span>
+            </div>
+            <div class="answer">
+                Answer: "Our AI offers natural language processing capabilities, such as answering questions, summarizing texts, translating languages, and even generating creative content like stories or poems. It also integrates with third-party tools for automation tasks."
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const questions = document.querySelectorAll('.question');
+
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const faq = question.parentElement;
+                faq.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
+
+
